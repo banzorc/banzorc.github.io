@@ -1,0 +1,68 @@
+header {
+    position: fixed; /* ヘッダーを固定する */
+    top: 0; /* 上部から配置の基準位置を決める */
+    left: 0; /* 左から配置の基準位置を決める */
+    width: 100%; /* ヘッダーの横幅を指定する */
+    height: 35px; /* ヘッダーの高さを指定する */
+    font-family: "Bokor", serif;  /* グーグルフォント */
+    text-align: right; /* テキストを右寄せに配置 */
+    font-size: 24px;
+  
+  }
+
+  /* ナビゲーションのスタイル */
+nav ul {
+    list-style-type: none; /* リストマーカーを非表示に */
+    padding: 0;
+  }
+
+nav ul li {
+    display: inline; /* リストアイテムを横並びに配置 */
+    margin-right: 15px;
+  }
+
+  /* リンクのスタイル */
+nav ul li a {
+    text-decoration: none; /* リンクの下線を非表示に */
+    color: antiquewhite; /* リンクのカラーを設定 */
+  }
+a {
+    text-decoration: none; /* リンクの下線を非表示に */
+}
+  /* 閲覧後の文字色 */
+a:visited {
+    color: #AA4A44;;
+}
+  /*　グーグルフォント */
+.font-txt {
+      font-family: "Bokor", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 84px;
+      color: antiquewhite;
+}
+center {
+    font-family: "Bokor", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite;
+}
+  /* パラグラフの設定 */
+p {
+    text-align: center;
+    color: antiquewhite;
+}
+  /* 背景イメージ */
+body {
+    background-image: url("https://github.com/banzorc/banzorc.github.io/blob/main/image0.jpeg?raw=true");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+  /* 動画中央寄せ */
+iframe {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    }
