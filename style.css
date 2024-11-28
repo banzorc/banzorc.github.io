@@ -28,6 +28,7 @@ nav ul li a {
   }
 a {
     text-decoration: none; /* リンクの下線を非表示に */
+    color: antiquewhite;
 }
   /* 閲覧後の文字色 */
 a:visited {
