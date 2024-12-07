@@ -59,6 +59,11 @@ p {
     color: antiquewhite;
 }
 
+h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
   /* 背景イメージ */
 body {
     background-image: url("https://github.com/banzorc/banzorc.github.io/blob/main/image0.jpeg?raw=true");
