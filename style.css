@@ -52,6 +52,11 @@ center {
     font-size:32px;
     color: antiquewhite;
 }
+.kiyaku {
+  color: antiquewhite;
+  width:fit-content;
+  margin:auto;
+}
 
   /* パラグラフの設定 */
 p {
