@@ -52,17 +52,40 @@ center {
     font-size:32px;
     color: antiquewhite;
 }
-.kiyaku {
+.inner {
+  max-width: 1000px;
+  width: 97%;
+  margin: 0 auto;
+}
+
+/*親要素*/
+.text-center-text-left-wrap {
+  text-align: center;
+  color: antiquewhite;
+}
+
+/*子要素(リスト部分)*/
+.text-center-text-left__child {
+  text-align: left;
+  color: antiquewhite;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+   /*パラグラフの設定 */
+/*p {
+    text-align: center;
+    color: antiquewhite;
+   
+}*/
+
+/*.kiyaku {
   color: antiquewhite;
   width:fit-content;
   margin:auto;
-}
+}*/
 
-  /* パラグラフの設定 */
-p {
-    text-align: center;
-    color: antiquewhite;
-}
 
   /* 背景イメージ */
 body {
@@ -79,38 +102,3 @@ iframe {
     height: 300px;
     margin: 0 auto;
     }
-.snow {
-  /*雪の色*/
-  color: snow;
-  /*雪の大きさ*/
-  font-size: 20px;
-  /*初期位置*/
-  position: fixed;
-  top: -5%;
-  /*雪を適当な幅で降らせる*/
-  text-shadow:
-  5vw   -100px 2px,
-  10vw  -400px 3px,
-  20vw  -500px 4px,
-  30vw  -580px 1px,
-  39vw  -250px 2px,
-  42vw  -340px 5px,
-  56vw  -150px 2px,
-  63vw  -180px 0,
-  78vw  -220px 4px,
-  86vw  -320px 9px,
-  94vw  -170px 7px;
-  /*雪アニメーション1*/
-  animation: roll 5s linear infinite;
-}
-  /*2つめの雪アニメーション*/
-.snow2nd{animation: anim 8s linear infinite;}
-
-@keyframes roll {
-    0% {transform:rotate(0deg);}
-   90% {opacity:1;}
-   100% {transform:rotate(20deg);top:100%;opacity:0;}
-}
-@keyframes anim {
-  100% {color:transparent;top:150%;}
-}
