@@ -44,6 +44,13 @@ a:visited {
       font-size: 84px;
       color: antiquewhite;
 }
+/*サイドバー*/
+.sidebar {
+  width: 96px;
+  background-color: moccasin;
+  box-sizing: border-box;
+  border: 8px solid chocolate;
+}
 
 center {
     font-family: "Bokor", serif;
