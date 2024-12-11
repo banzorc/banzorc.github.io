@@ -1,3 +1,7 @@
+html {
+  -webkit-text-size-adjust: 100%;/*文字のサイズを指定サイズに*/
+}
+
 header {
     position: fixed; /* ヘッダーを固定する */
     top: 0; /* 上部から配置の基準位置を決める */
