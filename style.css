@@ -65,6 +65,27 @@ a:hover {
                0 0 40px rgba(255, 255, 255, 0.6);
 }
 
+/*ボタン*/
+a.btn {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: underline;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 1rem;
+	font-weight: bold;
+	border: 2px solid gray;
+	background: black;
+	color: antiquewhite;
+	transition: 0.5s;
+}
+a.btn:hover {
+	color: gray;
+	background: #fff;
+}
+
+
 /*サイドバー*/
 .sidebar {
   position: fixed;
