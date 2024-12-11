@@ -59,7 +59,7 @@ a:visited {
   color: antiquewhite;
 }
 
-
+/*サイドバー*/
 .sidebar {
   position: fixed;
   width: 20%;
@@ -114,20 +114,6 @@ lefter{
   list-style: none;
   padding: 0;
 }
-
-   /*パラグラフの設定 */
-/*p {
-    text-align: center;
-    color: antiquewhite;
-   
-}*/
-
-/*.kiyaku {
-  color: antiquewhite;
-  width:fit-content;
-  margin:auto;
-}*/
-
 
   /* 背景イメージ */
 body {
