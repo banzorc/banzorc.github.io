@@ -38,6 +38,7 @@ a:visited {
 
   /*　グーグルフォント */
 .font-txt {
+      text-align: center;
       font-family: "Bokor", serif;
       font-weight: 400;
       font-style: normal;
