@@ -46,6 +46,16 @@ a:visited {
       color: antiquewhite;
 }
 
+.mfont-txt {
+  text-align: center;
+  font-family: "Bokor", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 58px;
+  color: antiquewhite;
+}
+
+
 .sidebar {
   position: fixed;
   width: 20%;
