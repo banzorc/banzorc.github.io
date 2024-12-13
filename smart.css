@@ -1,0 +1,66 @@
+body {
+    background-image: url("https://github.com/banzorc/banzorc.github.io/blob/main/image0.webp?raw=true");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+header {
+    position: fixed; /* ヘッダーを固定する */
+    top: 0; /* 上部から配置の基準位置を決める */
+    left: 0; /* 左から配置の基準位置を決める */
+    width: 100%; /* ヘッダーの横幅を指定する */
+    height: 10%; /* ヘッダーの高さを指定する */
+    font-family: "Bokor", serif;  /* グーグルフォント */
+    text-align: right; /* テキストを右寄せに配置 */
+    font-size:4rem;  /* フォントサイズ */
+  }
+
+  /* ナビゲーションのスタイル */
+nav ul {
+    list-style-type: none; /* リストマーカーを非表示に */
+    padding: 0;  /* 枠内の余白 */
+  }
+
+nav ul li {
+    display: inline; /* リストアイテムを横並びに配置 */
+    margin-right: 1rem;  /* 枠外の余白　*/
+  }
+
+  /* リンクのスタイル */
+nav ul li a {
+    text-decoration: none; /* リンクの下線を非表示に */
+    color: antiquewhite; /* リンクのカラーを設定 */
+  }
+
+a {
+    text-decoration: none; /* リンクの下線を非表示に */
+    color: antiquewhite;  /* リンクのカラーを設定 */
+}
+
+  /* 訪問後の文字色 */
+a:visited {
+    color: antiquewhite;
+}
+
+.inner {
+    max-width: 499px;
+    width: 97%;
+    margin: 0 auto;
+  }
+  
+  /*親要素*/
+  .text-center-text-left-wrap {
+    text-align: center;
+    color: antiquewhite;
+  }
+  
+  /*子要素(リスト部分)*/
+  .text-center-text-left__child {
+    text-align: left;
+    color: antiquewhite;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+  }
