@@ -8,7 +8,7 @@ header {
     z-index: 100; /*ヘッダーを手前に配置*/
     font-family: "Bokor", serif;  /* グーグルフォント */
     text-align: center; /* テキストを中央寄せに配置 */
-    font-size: 24px;  /* フォントサイズ */
+    font-size: 23px;  /* フォントサイズ */
   }
 
   /* ナビゲーションのスタイル */
