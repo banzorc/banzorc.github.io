@@ -91,6 +91,7 @@ a.btn:hover {
  scrollbar-width: none;
   color: antiquewhite;
   box-sizing: border-box;
+	text-align: left;
 }
 /*スクロールバー非表示（Chrome・Safari）*/
 .footer::-webkit-scrollbar{
