@@ -1,17 +1,12 @@
-html {
-  -webkit-text-size-adjust: 100%;/*文字のサイズを指定サイズに*/
-}
-
 header {
-  　background-color: black
     position: fixed; /* ヘッダーを固定する */
     top: 0; /* 上部から配置の基準位置を決める */
     left: 0; /* 左から配置の基準位置を決める */
     width: 100%; /* ヘッダーの横幅を指定する */
-    height: 20px; /* ヘッダーの高さを指定する */
+    height: 35px; /* ヘッダーの高さを指定する */
     font-family: "Bokor", serif;  /* グーグルフォント */
     text-align: right; /* テキストを右寄せに配置 */
-    font-size: 16px;  /* フォントサイズ */
+    font-size: 24px;  /* フォントサイズ */
   }
 
   /* ナビゲーションのスタイル */
@@ -47,7 +42,7 @@ a:visited {
       font-family: "Bokor", serif;
       font-weight: 400;
       font-style: normal;
-      font-size: 48px;
+      font-size: 84px;
       color: antiquewhite;
 }
 
@@ -56,33 +51,81 @@ a:visited {
   font-family: "Bokor", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
+  font-size: 58px;
   color: antiquewhite;
 }
 
 
-/*センター左寄せ*/
-.inner {
-    max-width: 499px;
-    width: 97%;
-    margin: 0 auto;
-  }
-  
-  /*親要素*/
-  .text-center-text-left-wrap {
-    text-align: center;
-    color: antiquewhite;
-  }
-  
-  /*子要素(リスト部分)*/
-  .text-center-text-left__child {
-    text-align: left;
-    color: antiquewhite;
-    display: inline-block;
-    list-style: none;
-    padding: 0;
-  }
+/*ボタン*/
+a.btn {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: underline;
+	width: 120px;
+	margin: auto;
+	padding: 1rem 1rem;
+	font-weight: bold;
+	border: 2px solid gray;
+	background: black;
+	color: antiquewhite;
+	transition: 0.5s;
+}
+a.btn:hover {
+	color: gray;
+	background: #fff;
+}
 
+
+/*サイドバー*/
+.sidebar {
+  position: fixed;
+  width: 20%;
+ /* height: 100%;*/
+ height: 90vh;
+ overflow-y: scroll;
+ /*スクロールバー非表示（IE・Edge）*/
+ -ms-overflow-style: none;
+ /*スクロールバー非表示（Firefox）*/
+ scrollbar-width: none;
+  color: antiquewhite;
+  box-sizing: border-box;
+}
+/*スクロールバー非表示（Chrome・Safari）*/
+.sidebar::-webkit-scrollbar{
+  display:none;
+}
+
+lefter{
+  text-align: left;
+  font-family: "Bokor", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: antiquewhite;
+}
+
+.inner {
+  max-width: 1000px;
+  width: 97%;
+  margin: 0 auto;
+}
+
+/*親要素*/
+.text-center-text-left-wrap {
+  text-align: center;
+  color: antiquewhite;
+}
+
+/*子要素(リスト部分)*/
+.text-center-text-left__child {
+  text-align: left;
+  color: antiquewhite;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+  /* 背景イメージ */
 body {
     background-image: url("https://github.com/banzorc/banzorc.github.io/blob/main/image0.webp?raw=true");
     background-size: cover;
@@ -90,4 +133,10 @@ body {
     background-position: center center;
 }
 
-
+  /* 動画中央寄せ */
+iframe {
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    }
