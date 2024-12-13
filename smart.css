@@ -75,11 +75,10 @@ color: antiquewhite;
   }
 
 body {
-  background-color:black;
-   /* background-image: url("https://github.com/banzorc/banzorc.github.io/blob/main/image0.webp?raw=true");
+    background-image: url("https://github.com/banzorc/banzorc.github.io/blob/main/image0.webp?raw=true");
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;*/
+    background-position: center center;
 }
 
 
