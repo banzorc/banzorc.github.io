@@ -5,8 +5,9 @@ header {
     left: 0; /* 左から配置の基準位置を決める */
     width: 100%; /* ヘッダーの横幅を指定する */
     height: 60px; /* ヘッダーの高さを指定する */
+    z-index: 100; 
     font-family: "Bokor", serif;  /* グーグルフォント */
-    text-align: right; /* テキストを右寄せに配置 */
+    text-align: center; /* テキストを右寄せに配置 */
     font-size: 24px;  /* フォントサイズ */
   }
 
