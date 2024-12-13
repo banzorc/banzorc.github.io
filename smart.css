@@ -4,7 +4,7 @@ header {
     top: 0; /* 上部から配置の基準位置を決める */
     left: 0; /* 左から配置の基準位置を決める */
     width: 100%; /* ヘッダーの横幅を指定する */
-    height: 35px; /* ヘッダーの高さを指定する */
+    height: 10px; /* ヘッダーの高さを指定する */
     font-family: "Bokor", serif;  /* グーグルフォント */
     text-align: right; /* テキストを右寄せに配置 */
     font-size: 24px;  /* フォントサイズ */
@@ -43,7 +43,7 @@ a:visited {
       font-family: "Bokor", serif;
       font-weight: 400;
       font-style: normal;
-      font-size: 84px;
+      font-size: 56px;
       color: antiquewhite;
 }
 
@@ -52,7 +52,7 @@ a:visited {
   font-family: "Bokor", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 58px;
+  font-size: 32px;
   color: antiquewhite;
 }
 
