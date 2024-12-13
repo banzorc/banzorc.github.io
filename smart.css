@@ -15,16 +15,18 @@ header {
     height: 10%; /* ヘッダーの高さを指定する */
     font-family: "Bokor", serif;  /* グーグルフォント */
     text-align: right; /* テキストを右寄せに配置 */
-    font-size:22px;  /* フォントサイズ */
+    font-size:16px;  /* フォントサイズ */
   }
 
   /* ナビゲーションのスタイル */
 nav ul {
+    background: black;/*背景色*/
     list-style-type: none; /* リストマーカーを非表示に */
     padding: 0;  /* 枠内の余白 */
   }
 
 nav ul li {
+    background: black;/*背景色*/
     display: inline; /* リストアイテムを横並びに配置 */
     margin-right: 15;  /* 枠外の余白　*/
   }
