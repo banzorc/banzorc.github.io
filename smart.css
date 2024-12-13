@@ -85,7 +85,7 @@ a.btn:hover {
 .footer {
   position: fixed;
   width: 90vh;
- height: 20%;
+ height: 40%;
  overflow-y: scroll;
  /*スクロールバー非表示（IE・Edge）*/
  -ms-overflow-style: none;
