@@ -14,7 +14,8 @@ header {
   /* ナビゲーションのスタイル */
 nav ul {
     list-style-type: none; /* リストマーカーを非表示に */
-    pxpadding: 0;  /* 枠内の余白 */
+    padding: 0;  /* 枠内の余白 */
+　　margin: 0 auto;
   }
 
 nav ul li {
