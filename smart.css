@@ -111,6 +111,11 @@ lefter{
   width: 97%;
   margin: 0 auto;
 }
+.smartinner {
+  max-width: 100%;
+  width: 97%;
+  margin: 0 auto;
+}
 
 /*親要素*/
 .text-center-text-left-wrap {
