@@ -19,7 +19,6 @@ nav ul {
 
 nav ul li {
     display: inline; /* リストアイテムを横並びに配置 */
-    margin-right: 15px;  /* 枠外の余白　*/
   }
 
   /* リンクのスタイル */
