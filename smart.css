@@ -14,7 +14,7 @@ header {
   /* ナビゲーションのスタイル */
 nav ul {
     list-style-type: none; /* リストマーカーを非表示に */
-    pxpadding-bottom: 7px;  /* 枠内の余白 */
+    pxpadding: 0;  /* 枠内の余白 */
   }
 
 nav ul li {
@@ -113,7 +113,6 @@ lefter{
   margin: 0 auto;
 }
 .smartinner {
-  max-width: 100%;
   width: 97%;
   margin: 0 auto;
 }
