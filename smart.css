@@ -1,34 +1,27 @@
 
-header {
-    background: black;/*背景色*/
-    position: fixed; /* ヘッダーを固定する */
-    top: 0; /* 上部から配置の基準位置を決める */
-    left: 0; /* 左から配置の基準位置を決める */
-    width: 100%; /* ヘッダーの横幅を指定する */
-    height: 10%; /* ヘッダーの高さを指定する */
-    font-family: "Bokor", serif;  /* グーグルフォント */
-    text-align: right; /* テキストを右寄せに配置 */
-    font-size:16px;  /* フォントサイズ */
-  }
-
-  /* ナビゲーションのスタイル */
-nav ul {
-    background: black;/*背景色*/
-    list-style-type: none; /* リストマーカーを非表示に */
-    padding: 0;  /* 枠内の余白 */
-  }
-
-nav ul li {
-    background: black;/*背景色*/
-    display: inline; /* リストアイテムを横並びに配置 */
-    margin-right: 15;  /* 枠外の余白　*/
-  }
-
-  /* リンクのスタイル */
-nav ul li a {
-    text-decoration: none; /* リンクの下線を非表示に */
-    color: antiquewhite; /* リンクのカラーを設定 */
-  }
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+.navigation {
+  width: 100%;
+  height: 60px;
+  background-color: #383737;
+  box-sizing: border-box;
+}
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.navigation li {
+  margin-right: 55px;
+}
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+}
 
 a {
     text-decoration: none; /* リンクの下線を非表示に */
