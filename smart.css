@@ -109,11 +109,6 @@ lefter{
 }
 
 .inner {
-  max-width: 1000px;
-  width: 97%;
-  margin: 0 auto;
-}
-.smartinner {
   width: 97%;
   margin: 0 auto;
 }
