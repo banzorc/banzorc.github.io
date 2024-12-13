@@ -14,7 +14,7 @@ header {
     height: 10%; /* ヘッダーの高さを指定する */
     font-family: "Bokor", serif;  /* グーグルフォント */
     text-align: right; /* テキストを右寄せに配置 */
-    font-size:4rem;  /* フォントサイズ */
+    font-size:24px;  /* フォントサイズ */
   }
 
   /* ナビゲーションのスタイル */
@@ -25,7 +25,7 @@ nav ul {
 
 nav ul li {
     display: inline; /* リストアイテムを横並びに配置 */
-    margin-right: 1rem;  /* 枠外の余白　*/
+    margin-right: 15;  /* 枠外の余白　*/
   }
 
   /* リンクのスタイル */
@@ -44,22 +44,23 @@ a:visited {
     color: antiquewhite;
 }
 
-.font-txt {
-      text-align: center;
-      font-family: "Bokor", serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 84px;
-      color: antiquewhite;
+  /*　グーグルフォント */
+  .font-txt {
+    text-align: center;
+    font-family: "Bokor", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 84px;
+    color: antiquewhite;
 }
 
 .mfont-txt {
-  text-align: center;
-  font-family: "Bokor", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 58px;
-  color: antiquewhite;
+text-align: center;
+font-family: "Bokor", serif;
+font-weight: 400;
+font-style: normal;
+font-size: 58px;
+color: antiquewhite;
 }
 
 .inner {
