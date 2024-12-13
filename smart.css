@@ -44,6 +44,24 @@ a:visited {
     color: antiquewhite;
 }
 
+.font-txt {
+      text-align: center;
+      font-family: "Bokor", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 84px;
+      color: antiquewhite;
+}
+
+.mfont-txt {
+  text-align: center;
+  font-family: "Bokor", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 58px;
+  color: antiquewhite;
+}
+
 .inner {
     max-width: 499px;
     width: 97%;
