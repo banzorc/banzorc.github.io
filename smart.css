@@ -83,7 +83,25 @@ a.btn:hover {
 	background: #fff;
 }
 
-
+/*サイドバー*/
+.sidebar {
+  display: none
+  position: fixed;
+  width: 20%;
+ /* height: 100%;*/
+ height: 90vh;
+ overflow-y: scroll;
+ /*スクロールバー非表示（IE・Edge）*/
+ -ms-overflow-style: none;
+ /*スクロールバー非表示（Firefox）*/
+ scrollbar-width: none;
+  color: antiquewhite;
+  box-sizing: border-box;
+}
+/*スクロールバー非表示（Chrome・Safari）*/
+.sidebar::-webkit-scrollbar{
+  display:none;
+}
 
 lefter{
   text-align: left;
