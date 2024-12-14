@@ -85,7 +85,7 @@ a.btn:hover {
 
 /*サイドバー*/
 .sidebar {
-  display: none
+  display: none !important;
   position: fixed;
   width: 20%;
  /* height: 100%;*/
