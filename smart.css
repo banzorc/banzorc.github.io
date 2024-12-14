@@ -67,7 +67,6 @@ a:visited {
 a.btn {
 	display: block;
 	text-align: center;
-	vertical-align: middle;
 	text-decoration: underline;
 	width: 120px;
 	margin: auto;
@@ -111,24 +110,6 @@ lefter{
     color: antiquewhite;
 }
 
-.footer {
-  position: fixed;
-  width: 90vh;
- height: 40%;
- overflow-y: scroll;
- /*スクロールバー非表示（IE・Edge）*/
- -ms-overflow-style: none;
- /*スクロールバー非表示（Firefox）*/
- scrollbar-width: none;
-  color: antiquewhite;
-  box-sizing: border-box;
-	text-align: left;
-}
-/*スクロールバー非表示（Chrome・Safari）*/
-.footer::-webkit-scrollbar{
-  display:none;
-}
-
 .inner {
   width: 97%;
   margin: 0 auto;
@@ -157,25 +138,12 @@ body {
     background-position: center center;
 }
 
-.video { 
-      text-align: center; 
-      aspect-ratio: >16 / 9;
-      max-width: 600px;
-      margin: auto;
-    }
-
 iframe.youtube-16-9 {
 width: 100%;
 height: auto;
 aspect-ratio: >16 / 9;
-max-width: 300px;
+max-width: 600px;
 display: block;
 margin: auto;
 }
-  /* 動画中央寄せ */
-/*iframe {
-    display: block;
-    width: 500px;
-    height: 300px;
-    margin: 0 auto;
-}*/
+  
