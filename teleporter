@@ -52,7 +52,7 @@
         <div class= "mfont-txt">Festival</div>
         <P>ファンタジーのにぎやかな町をイメージした曲です。(1.06MB)</P>
         <div class="audio-container">
-        <audio controls src="bgm/Festival.mp3" type="Festival/mp3">Festival</audio>
+        <audio controls src="https://github.com/banzorc/bgm/raw/refs/heads/main/Festival.mp3" type="Festival/mp3">Festival</audio>
     </div>
        <!-- <iframe width="560" height="315" 
             src="https://www.youtube.com/embed/M4OGtoggPmM" 
@@ -74,7 +74,7 @@
         <div class= "mfont-txt">Festival Of Carrion</div>
         <p>Festivalの戦闘アレンジ。少しダークで激しめの曲です。(2.89MB)</p>
         <div class='audio-container'>
-        <audio controls src="bgm/FestivalOfCarrion.mp3" type="FestivalOfCarrion/mp3">FestivalOfCarrion</audio>
+        <audio controls src="https://github.com/banzorc/bgm/raw/refs/heads/main/FestivalOfCarrion.mp3" type="FestivalOfCarrion/mp3">FestivalOfCarrion</audio>
     </div>
         <!--<iframe width="560" height="315" 
             src="https://www.youtube.com/embed/tIslbktQ7EU" 
