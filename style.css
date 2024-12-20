@@ -135,10 +135,8 @@ lefter{
 
   /* 背景イメージ */
 body {
-    background-image: url("https://github.com/banzorc/banzorc.github.io/blob/main/image0.webp?raw=true");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+    background-color: black;
+    
 }
 
   /* 動画中央寄せ */
